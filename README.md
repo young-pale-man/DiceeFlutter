@@ -1,16 +1,26 @@
-# dice_2
+# Dicee or DiceRoller🎲
 
-A new Flutter project.
+An application written to learn the basics of Flutter such as importing files into a project, 
+random functions and working with Stateful Widgets.
 
-## Getting Started
+## Technologies🔧
 
-This project is a starting point for a Flutter application.
+#### - Flutter
+#### - StatefulWidgets
+#### - Random
 
-A few resources to get you started if this is your first Flutter project:
+## Interface💻
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+The project interface is a single screen with two images of dice displayed. 
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Functionality🕹
+
+When you click on any of the dice, the random function is launched, which changes both images to 
+random ones from the library. 
+
+The image library includes 6 dice pictures with different meanings in PNG format. The random function 
+generates a random value from 1 to 6 and assigns it to a variable that is built into Stateful Widget 
+and points the image widget to the path to the desired image file in the library.
+
+This creates an application that, when pressed, displays a random combination of two dice on the 
+screen and can be used for board games or dispute resolution😅
